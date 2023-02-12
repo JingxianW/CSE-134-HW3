@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #ffebbb;
+    -webkit-text-stroke: 1.5px #967E76;
+}    
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #ffefed;
+    font-size: clamp(.75rem, 1.5vw, 1.25rem);
+    width:100%
+}
+
+nav a {
+    color: #967E76;
+}
+
+body {
+    font-family: cursive;
+    background-color: #fbefefd4;
+}
+
+hr{
+    height: 1px;
+    background-color: #967e765d;
+    border: none;
+}
+
+h1 {
+    position: relative;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center; 
+    text-shadow: 0.3vw 0.25vw #bda8a1;
+    font-size: 3vw;
+    color: #43312b;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+   }
+   
+.box1 {
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+}
+   
+.box2 {
+    font-size: 1.2vw;
+    margin-right: 15%;
+    color: #43312b;
+}
+
+.box3 {
+    margin-top: 10%;
+    margin-right: 15%;
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+}
+   
+.box4 {
+    font-size: 1.2vw;
+    margin-left: 15%;
+    color: #43312b;
+}
+
+.box5 {
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+}
+   
+.box6 {
+    font-size: 1.2vw;
+    margin-right: 15%;
+    color: #43312b;
+}
+
+.box7 {
+    margin-top: 10%;
+    margin-right: 15%;
+    width: 40%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 20%;
+}
+   
+.box8 {
+    font-size: 1.2vw;
+    margin-left: 15%;
+    color: #43312b;
+}
+
+.greeting {
+    font-size: 1.2vw;
+    color: #43312b;
+    margin-bottom: 2%;
+    display:inline-block;
+    animation: slide-left-to-right 10s linear infinite;
+}
+
+@keyframes slide-left-to-right {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(600%);}
+}
+
+.footer {
+    color: #9d9694;
+    font-size: 0.9vw;
+    text-align: center;
+    margin-bottom: 1%;
+} 
