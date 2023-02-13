@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fbefefd4;
 }
 
@@ -30,7 +30,7 @@ a:hover {
     gap: 60px;
     padding: 20px;
     background-color: #ffefed;
-    font-size: clamp(.75rem, 1.5vw, 1.25rem);
+    font-size: clamp(.95rem, 1.5vw, 1.45rem);
 }
 
 .navbar a {
@@ -45,7 +45,7 @@ hr{
 
 .name h1 {
     color: #b9aaa6;
-    font-size: 5vw;
+    font-size: 5.2vw;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -118,7 +118,7 @@ img {
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: clamp(.75rem, 1.5vw, 1.25rem);
+    font-size: clamp(.95rem, 1.5vw, 1.45rem);
     color: #43312b;
 }
 
@@ -127,7 +127,7 @@ img {
     bottom: 3%; 
     left: 50%;
     color: #9d9694;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
 }
 
 
@@ -141,4 +141,8 @@ img {
         background-color: #ffefed;
         font-size: 0.7rem;
     }
+
+    a:hover {
+        background-color: #ffefed;
+    }  
 }

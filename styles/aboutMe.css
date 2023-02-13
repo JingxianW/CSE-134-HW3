@@ -20,7 +20,7 @@ nav {
     justify-content: flex-start;
     padding: 20px;
     background-color: #ffefed;
-    font-size: clamp(.75rem, 1.5vw, 1.25rem);
+    font-size: clamp(.95rem, 1.5vw, 1.45rem);
     width:100%
 }
 
@@ -29,7 +29,7 @@ nav a {
 }
 
 body {
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fbefefd4;
 }
 
@@ -46,7 +46,7 @@ h1 {
     align-items: center;
     justify-content: center; 
     text-shadow: 0.3vw 0.25vw #bda8a1;
-    font-size: 3vw;
+    font-size: 3.2vw;
     color: #43312b;
 }
 
@@ -66,7 +66,7 @@ h1 {
 }
    
 .box2 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-right: 15%;
     color: #43312b;
 }
@@ -80,7 +80,7 @@ h1 {
 }
    
 .box4 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-left: 15%;
     color: #43312b;
 }
@@ -94,7 +94,7 @@ h1 {
 }
    
 .box6 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-right: 15%;
     color: #43312b;
 }
@@ -109,13 +109,13 @@ h1 {
 }
    
 .box8 {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     margin-left: 15%;
     color: #43312b;
 }
 
 .greeting {
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     color: #43312b;
     margin-bottom: 2%;
     display:inline-block;
@@ -129,13 +129,13 @@ h1 {
 
 .footer {
     color: #9d9694;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     text-align: center;
     margin-bottom: 1%;
 } 
 
 @media (max-width: 530px) {
     .navbar {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 }
