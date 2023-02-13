@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --main-font-color: #43312b;
 }
 
 a {
@@ -28,8 +29,13 @@ nav a {
     color: #967E76;
 }
 
+@font-face {
+    font-family: purpleSmile;
+    src: url(../font/Purple\ Smile.ttf);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: purpleSmile, Arial, Helvetica, sans-serif;
     background-color: #fbefefd4;
 }
 
@@ -47,7 +53,7 @@ h1 {
     justify-content: center; 
     text-shadow: 0.3vw 0.25vw #bda8a1;
     font-size: 3.2vw;
-    color: #43312b;
+    color: var(--main-font-color);
 }
 
 .container {
@@ -68,7 +74,7 @@ h1 {
 .box2 {
     font-size: 1.4vw;
     margin-right: 15%;
-    color: #43312b;
+    color: var(--main-font-color);
 }
 
 .box3 {
@@ -82,7 +88,7 @@ h1 {
 .box4 {
     font-size: 1.4vw;
     margin-left: 15%;
-    color: #43312b;
+    color: var(--main-font-color);
 }
 
 .box5 {
@@ -96,7 +102,7 @@ h1 {
 .box6 {
     font-size: 1.4vw;
     margin-right: 15%;
-    color: #43312b;
+    color: var(--main-font-color);
 }
 
 .box7 {
@@ -111,12 +117,12 @@ h1 {
 .box8 {
     font-size: 1.4vw;
     margin-left: 15%;
-    color: #43312b;
+    color: var(--main-font-color);
 }
 
 .greeting {
     font-size: 1.4vw;
-    color: #43312b;
+    color: var(--main-font-color);
     margin-bottom: 2%;
     display:inline-block;
     animation: slide-left-to-right 10s linear infinite;

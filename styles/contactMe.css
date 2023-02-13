@@ -20,7 +20,7 @@ nav {
     justify-content: flex-start;
     padding: 20px;
     background-color: #ffefed;
-    font-size: clamp(.75rem, 1.5vw, 1.25rem);
+    font-size: clamp(.95rem, 1.5vw, 1.45rem);
     width:100%
 }
 
@@ -28,8 +28,13 @@ nav a {
     color: #967E76;
 }
 
+@font-face {
+    font-family: purpleSmile;
+    src: url(../font/Purple\ Smile.ttf);
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: purpleSmile, Arial, Helvetica, sans-serif;
     background-color: #fbefefd4;
 }
 
@@ -46,7 +51,7 @@ h1 {
     align-items: center;
     justify-content: center; 
     text-shadow: 0.3vw 0.25vw #bda8a1;
-    font-size: 3vw;
+    font-size: 3.2vw;
     color: #43312b;
 }
 
@@ -93,7 +98,7 @@ p {
     bottom: 3%; 
     left: 42%;
     color: #9d9694;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
 } 
 
 @media (max-width: 530px) {
