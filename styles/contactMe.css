@@ -95,3 +95,33 @@ p {
     color: #9d9694;
     font-size: 0.9vw;
 } 
+
+@media (max-width: 530px) {
+    .navbar {
+        font-size: 0.7rem;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        border-style: none
+    }
+
+    .contact1, .contact2, .contact3{
+        font-size: 9px;
+    }
+    
+    .img1 {
+        width: 5%;
+        height: auto;
+    }
+    
+    .img2 {
+        width: 6%;
+        height: auto;
+    }
+
+    .box2 {
+        margin-top: 20px;
+    }
+}

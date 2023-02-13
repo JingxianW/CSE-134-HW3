@@ -43,12 +43,6 @@ hr{
     border: none;
 }
 
-@media (max-width: 500px) {
-    hr {
-        display: none;
-    }
-}
-
 .name h1 {
     color: #b9aaa6;
     font-size: 5vw;
@@ -136,3 +130,15 @@ img {
     font-size: 0.9vw;
 }
 
+
+@media (max-width: 530px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 38px;
+        padding: 15px;
+        background-color: #ffefed;
+        font-size: 0.7rem;
+    }
+}

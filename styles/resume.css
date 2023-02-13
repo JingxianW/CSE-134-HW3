@@ -122,3 +122,9 @@ a.projects:hover {
     text-align: center;
     margin-bottom: 1%;
 } 
+
+@media (max-width: 530px) {
+    .navbar {
+        font-size: 0.7rem;
+    }
+}
